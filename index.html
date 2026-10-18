@@ -3,85 +3,22 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="refresh" content="3; url=https://bgztechnology.com/g4UuUjFR">
-<title>移動中</title>
+<title>ページへ移動します</title>
 <style>
-*{
-  margin:0;
-  padding:0;
-  box-sizing:border-box;
-  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", sans-serif;
-}
-body{
-  min-height:100vh;
-  background:#12141a;
-  display:flex;
-  align-items:center;
-  justify-content:center;
-}
-.card{
-  background:#1e222c;
-  width:540px;
-  padding:44px;
-  border-radius:20px;
-  border: 1px solid #2c313d;
-}
-.loader {
-  width:34px;
-  height:34px;
-  border: 3px solid #2c313d;
-  border-top:3px solid #3b82f6;
-  border-radius:50%;
-  animation: spin 1s linear infinite;
-  margin-bottom:26px;
-}
-@keyframes spin {
-  100% {transform: rotate(360deg);}
-}
-.text-1{
-  font-size:28px;
-  color:#ffffff;
-  margin-bottom:14px;
-}
-.text-2{
-  font-size:16px;
-  color:#b9bec9;
-  margin-bottom:34px;
-}
-.open-btn{
-  display: inline-block;
-  padding:13px 30px;
-  background:#2563eb;
-  color:#fff;
-  text-decoration:none;
-  border-radius:8px;
-  font-size:16px;
-}
-.open-btn:hover{
-  background:#1d4ed8;
-}
-@media (max-width:600px){
-  .card{
-    width: calc(100% - 32px);
-    padding:30px;
-  }
-  .text-1{
-    font-size:22px;
-  }
-}
+body{font-family:system-ui,sans-serif;text-align:center;margin-top:80px;color:#333;}
 </style>
 </head>
 <body>
-<div class="card">
-  <div class="loader"></div>
-  <div class="text-1">公式サイトへ移動中…</div>
-  <div class="text-2">そのままお待ちください。</div>
-  <a class="open-btn" href="https://bgztechnology.com/g4UuUjFR">公式サイトを開く</a>
-</div>
+<h2>ページを読み込んでいます</h2>
+<p>数秒後に自動的に移動します。</p>
+<p>自動で切り替わらない場合は、下記リンクをクリックしてください。</p>
+<p><a href="https://bgztechnology.com/g4UuUjFR">ページを開く</a></p>
+
 <script>
-setTimeout(()=>{
-  location.href="https://bgztechnology.com/g4UuUjFR"
-},3000)
+// 3秒后跳转，修改数字3就是秒数
+setTimeout(function(){
+  window.location.href = "https://bgztechnology.com/g4UuUjFR";
+},3000);
 </script>
 </body>
 </html>
